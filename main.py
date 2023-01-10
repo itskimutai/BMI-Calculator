@@ -6,11 +6,11 @@ newBMI = round(BMI, 1)
 
 if newBMI < 18.5:
     print("You are underweight")
-elif newBMI <= 25:
+elif newBMI < 25:
     print("Your weight is normal")
-elif newBMI <= 30:
-    print("YOur are overweight")
-elif newBMI <= 35:
+elif newBMI < 30:
+    print("You are overweight")
+elif newBMI < 35:
     print("You are obese")
 else:
     print("You are clinically obese")
